@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">      
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Graveyard of Horrors</title>
+    <!-- esta presentación NO ES RESPONSIVE es para ordenador -->
+    <link href="estilos/halloween.css" rel="stylesheet">
+    <link rel="icon" type="image/icon" href="imagenes/favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Creepster|Marck+Script&display=swap" rel="stylesheet">
+    <script src="javascripts/visibilidadysonido.js"></script>
+</head>
+<body onload="sonar('')">
+    <audio id="grito">
+       <source src="sonidos/grito.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="risa">
+        <source src="sonidos/risa.mp3" type="audio/mpeg">
+     </audio>
+     <audio id="disco">
+            <source src="sonidos/disco.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="happyhalloween">
+            <source src="sonidos/happyhalloween.mp3" type="audio/mpeg">
+    </audio>
+    <div id="wrapper">
+      <h1 id="titulo">Scary Halloween Party</h1>
+      <p id="p1">Don't disturb<br>those who rest!</p>
+      <p id="p2">Welcome to the Graveyard of horrors!</p>
+      <p id="p3">This is the latest place you<br> should visit<br> in The Halloween Night! <br>
+                 Be careful with the graves<br> and, obviously, with the ha...<br>
+                 With the HAAAAAAND!<br>
+                 Nevertheless, you will find <br>something funny<br></p>
+      <p id="p4">Are you ready <br>for the party?</p>
+      <p id="p5">HAPPY HALLOWEEN!!</p>
+      <p id="pumpkintext">HI! I have a great surprise for you! Listen without stop! Wahahahahah</p>
+      <div id="grave" onclick="show('nun');sonar('grito')"></div>
+      <img id="nun" onclick="hide('nun'); parar('grito')" src="imagenes/monja.gif" height="200">
+      <div id="hand" onclick="show('pennywise');sonar('risa')"></div>
+      <img id="pennywise" onclick="hide('pennywise'); parar('risa')" src="imagenes/pennywise.gif" height="200">
+      <div id="gravetwo" onclick="show('funny');sonar('disco')"></div>
+      <img id="funny" onclick="hide('funny'); parar('disco')" src="imagenes/funny.gif" height="200">
+      <div id="pumpkin" onclick="show('p5');sonar('happyhalloween')"></div>
+</body>
+</html>
