@@ -24,6 +24,9 @@
     <audio id="happyhalloween">
             <source src="sonidos/happyhalloween.mp3" type="audio/mpeg">
     </audio>
+    <audio id="aullido">
+        <source src="sonidos/aullido.mp3" type="audio/mpeg">
+    </audio>
     <div id="wrapper">
       <h1 id="titulo">Scary Halloween Party</h1>
       <p id="p1">Don't disturb<br>those who rest!</p>
@@ -42,5 +45,7 @@
       <div id="gravetwo" onclick="show('funny');sonar('disco')"></div>
       <img id="funny" onclick="hide('funny'); parar('disco')" src="imagenes/funny.gif" height="200">
       <div id="pumpkin" onclick="show('p5');sonar('happyhalloween')"></div>
+      <div id="moon" onclick="show('lobo');sonar('aullido')"></div>
+      <img id="lobo" onclick="hide('lobo'); parar('aullido')" src="imagenes/lobo.gif" height="200">
 </body>
 </html>

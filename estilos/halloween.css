@@ -113,3 +113,17 @@
                 height:100px;
                 color:rgb(255, 145, 0);
                 }
+       #moon{position:absolute;
+              top: 60px;
+              left:800px;
+              /*border:1px solid rgb(255, 255, 255);*/
+              width:250px;
+              height:250px;
+              }
+       #lobo{position:absolute;
+             top: 60px;
+             left:800px;
+             width:250px;
+             height:250px;
+             visibility: hidden;
+             }
