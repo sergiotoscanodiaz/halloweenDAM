@@ -66,6 +66,7 @@
                height:180px;
                width:80px;
                height:80px;
+               cursor: pointer;
                }      
         #nun {position:absolute;
               top:630px;
@@ -77,6 +78,7 @@
               /*border:1px solid rgb(255, 255, 255);*/
               width:80px;
               height:80px;
+              cursor: pointer;
               }
        #pennywise {position: absolute;
                    top: 40px;
@@ -90,13 +92,14 @@
                  /*border:1px solid rgb(255, 255, 255);*/
                  width:100px;
                  height:100px;
+                 cursor: pointer;
                  }
        #funny{position:absolute;
-              top: 300px;
-              left:100px;
+              top: 500px;
+              left:155px;
               visibility: hidden;
-              width: 500px;
-              height:500px;
+              width: 300px;
+              height:300px;
               }
        #pumpkin{position:absolute;
            top: 640px;
@@ -104,6 +107,7 @@
            /*border:1px solid rgb(255, 255, 255);*/
            width:100px;
            height:100px;
+           cursor: pointer;
            }
        #pumpkintext{position:absolute;
                 top: 540px;
@@ -119,11 +123,17 @@
               /*border:1px solid rgb(255, 255, 255);*/
               width:250px;
               height:250px;
+              cursor: pointer;
               }
        #lobo{position:absolute;
-             top: 60px;
-             left:800px;
-             width:250px;
-             height:250px;
+             top: 600px;            
+             width:200px;
+             height:200px;
              visibility: hidden;
              }
+       #p6{color:rgb(170, 255, 0);
+           position:absolute;
+           top: 150px;
+           left:900px;      
+           background-color: black; 
+           }

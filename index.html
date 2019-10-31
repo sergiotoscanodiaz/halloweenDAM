@@ -11,7 +11,8 @@
     <link href="https://fonts.googleapis.com/css?family=Creepster|Marck+Script&display=swap" rel="stylesheet">
     <script src="javascripts/visibilidadysonido.js"></script>
 </head>
-<body onload="sonar('')">
+<body onload="sonar('fondo')">
+    <audio id="fondo" src="sonidos/fondo.mp3" autoplay loop></audio>
     <audio id="grito">
        <source src="sonidos/grito.mp3" type="audio/mpeg">
     </audio>
@@ -37,6 +38,7 @@
                  Nevertheless, you will find <br>something funny<br></p>
       <p id="p4">Are you ready <br>for the party?</p>
       <p id="p5">HAPPY HALLOWEEN!!</p>
+      <p id="p6">DON'T TOUCH ME!</p>
       <p id="pumpkintext">HI! I have a great surprise for you! Listen without stop! Wahahahahah</p>
       <div id="grave" onclick="show('nun');sonar('grito')"></div>
       <img id="nun" onclick="hide('nun'); parar('grito')" src="imagenes/monja.gif" height="200">
